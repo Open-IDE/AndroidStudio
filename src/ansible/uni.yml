@@ -1,0 +1,14 @@
+- name: Android Studio
+  hosts: localhost
+  vars:
+    debug: false
+    android_emulator: false #true
+    google_apis_playstore: false #true
+
+  roles:
+    - UniInc.Android-Studio
+
+    #- UniInc.Android-sdkmanager
+    # Android Emulator image
+    #- UniInc.Android-AVD
+

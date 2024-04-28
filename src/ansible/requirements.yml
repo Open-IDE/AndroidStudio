@@ -1,0 +1,10 @@
+---
+# from galaxy.ansible.com
+# Android SDK Manager
+- name: UniInc.Android-sdkmanager
+
+# Android Emulator image
+- name: UniInc.Android-AVD
+
+# Android Studio
+- name: UniInc.Android-Studio
