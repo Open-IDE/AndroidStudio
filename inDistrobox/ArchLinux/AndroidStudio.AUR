@@ -1,3 +1,9 @@
 distrobox create --name AndroidStudio --home ~/.uni/hyper/distrobox/HOME/AndroidStudio --image quay.io/toolbx/arch-toolbox:latest
 
 distrobox enter AndroidStudio
+
+installYay(){
+echo https://github.com/Unicorn-OS/ArchLinux.Knowledge/blob/main/Package%20Manager/AUR/Yay/readme.md
+}
+
+yay -S android-studio
