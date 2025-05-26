@@ -1,3 +1,5 @@
+app=android-studio
+
 distrobox create --name AndroidStudio --home ~/.uni/hyper/distrobox/HOME/AndroidStudio --image quay.io/toolbx/arch-toolbox:latest
 
 distrobox enter AndroidStudio
@@ -8,4 +10,4 @@ echo https://github.com/Unicorn-OS/ArchLinux.Knowledge/blob/main/Package%20Manag
 
 yay -S android-studio
 
-distrobox-export $app
+distrobox-export --app $app
