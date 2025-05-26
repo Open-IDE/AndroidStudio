@@ -1,0 +1,3 @@
+distrobox create --name AndroidStudio --home ~/.uni/hyper/distrobox/HOME/AndroidStudio --image quay.io/toolbx/arch-toolbox:latest
+
+distrobox enter AndroidStudio
